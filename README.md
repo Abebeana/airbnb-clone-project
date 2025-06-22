@@ -88,52 +88,77 @@ CI/CD automates testing and deployment:
 
 ## Frontend
 
-### 1. Team Roles
+### UI/UX Design Planning
 
-| Role                    | Responsibility                                              |
-|-------------------------|-------------------------------------------------------------|
-| **Frontend Developer**  | Designs and implements UI components, ensures responsiveness. |
-| **Designer**            | Creates mockups and visual assets using Figma.               |
-| **QA Engineer**         | Tests user interfaces for bugs and usability.                |
-| **Product Owner**       | Defines UI/UX requirements and prioritizes features.         |
+**Design Goals:**
+- Create an intuitive and seamless booking experience.
+- Maintain visual consistency across all pages.
+- Ensure mobile responsiveness and fast loading times.
 
-### 2. Technology Stack
+**Key Features:**
+- Property browsing and filtering.
+- Detailed property view with booking form.
+- Secure and simple checkout process.
 
-| Technology | Purpose                                 |
-|-----------|-----------------------------------------|
-| **HTML/CSS/JavaScript** | Core web technologies for structure, style, and interactivity. |
-| **React** | Component-based frontend framework for dynamic UI. |
-| **Figma** | Design tool for wireframes and prototypes. |
+| Page | Description |
+|------|--------------|
+| **Property Listing View** | Displays available properties in a grid with filters for price, location, and amenities. |
+| **Listing Detailed View** | Shows complete property details, images, reviews, and an integrated booking form. |
+| **Simple Checkout View** | Streamlined payment page for booking confirmation and payment processing. |
 
-### 3. Feature Breakdown
-
-- **Responsive UI:**  
-  Mobile-friendly layouts and flexible grids.
-
-- **Property Search & Filter:**  
-  Users can browse and filter listings.
-
-- **Property Detail Page:**  
-  Rich content including images, price, location, and booking form.
-
-- **Checkout Flow:**  
-  Seamless booking confirmation with payment integration.
-
-- **User Dashboard:**  
-  Manage bookings, favorites, and reviews.
-
-### 4. Design Best Practices
-
-- **Clean, reusable components:**  
-  Consistent styling and logic across pages.
-
-- **Accessibility:**  
-  Follow WCAG guidelines for inclusive design.
-
-- **Fast load times:**  
-  Optimize images and scripts.
+**Importance of User-Friendly Design:**  
+A clear and user-friendly booking flow reduces friction, boosts conversion rates, and ensures a positive experience. Good design increases trust and keeps users engaged.
 
 ---
+
+**More UI/UX Design Planning**
+
+**Color Styles:**
+- **Primary:** `#FF5A5F`
+- **Secondary:** `#008489`
+- **Background:** `#FFFFFF`
+- **Text:** `#222222`
+- **Secondary Text:** `#717171`
+
+**Typography:**
+- **Primary Font:** Circular
+- **Font Weights:** Medium (500), Bold (700), Book (400)
+- **Font Sizes:** Body text 16px, Headings 24px–32px, Secondary text 14px
+
+**Importance:**  
+Identifying design properties like colors and typography ensures consistency, reinforces branding, and improves usability. It aligns the visual design with user expectations and the mockup specifications.
+
+---
+
+### Project Roles and Responsibilities
+
+| Role | Responsibilities |
+|------|------------------|
+| **Project Manager** | Oversees the timeline, manages tasks, coordinates communication. |
+| **Frontend Developers** | Build responsive UI components and implement the design. |
+| **Backend Developers** | Create and maintain APIs and database logic. |
+| **Designers** | Design UI mockups, define design system, ensure UX quality. |
+| **QA/Testers** | Test features, report bugs, ensure a bug-free user experience. |
+| **DevOps Engineers** | Manage deployment pipelines and server configurations. |
+| **Product Owner** | Define requirements and prioritize features. |
+| **Scrum Master** | Facilitate agile processes and remove blockers. |
+
+---
+
+### UI Component Patterns
+
+**Planned Components:**
+
+- **Navbar:**  
+  Includes site logo, search bar, user navigation, and responsive menu.
+
+- **Property Card:**  
+  Displays property image, price, location, rating, and favorite button in a responsive layout.
+
+- **Footer:**  
+  Contains site links, company info, social media links, and copyright.
+
+Each component will be reusable and consistent to maintain a cohesive look and feel throughout the application.
 
 # Repository
 
